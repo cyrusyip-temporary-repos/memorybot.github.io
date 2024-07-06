@@ -40,19 +40,15 @@ theme = ["hugo-notice"]
   [[params.links]]
       name = "Email"
       url = "mailto:memorybot.me@gmail.com"
-      title = "Email"
   [[params.links]]
       name = "Bluesky"
       url = "https://bsky.app/profile/memorybot.bsky.social"
-      title = "Bluesky"
   [[params.links]]
       name = "NeoDB"
       url = "https://neodb.social/users/memorybot/"
-      title = "NeoDB"
   [[params.links]]
       name = "设备记录"
       url = "https://memorybot.vercel.app/device"
-      title = "设备记录"
   [[params.links]]
       name = "RSS"
       url = "/index.xml"
