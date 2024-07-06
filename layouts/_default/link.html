@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <article class="markdown book-post">
+        {{- .Content -}}
+    </article>
+{{ end }}
+
+{{ define "toc" }}
+    {{ partial "sidebar" . }}
+    </br>
+    {{ partial "docs/toc" . }}
+{{ end }}

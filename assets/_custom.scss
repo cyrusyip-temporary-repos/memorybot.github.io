@@ -1,0 +1,100 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+/* override selection color */
+::selection {
+    background: #009ECE;
+  }
+//   https://blog.douchi.space/blog-decoration-2/#gsc.tab=0
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  }
+//   https://blog.douchi.space/blog-decoration-2/#gsc.tab=0
+
+/* css */
+.spoiler {
+    filter: blur(4px);
+    display: inline;
+    &:hover {
+      filter: blur(0);
+    }
+  }
+//   https://blog.douchi.space/static-blog-one-year-in-hugo-decoration-3/#gsc.tab=0
+
+/* 设置版权信息的样式 */
+.copyright {
+    font-size: 12px; /* 设置字体大小为14像素 */
+    color:  #999; /* 设置字体颜色为深灰色 */
+    // font-family: Arial, sans-serif; /* 设置字体为 Arial 或系统默认 sans-serif 字体 */
+}
+
+/* 设置链接的样式 */
+.copyright a {
+    color:  #999; /* 设置链接颜色为蓝色 */
+    text-decoration: none; /* 去掉链接的下划线 */
+}
+
+/* 设置链接悬停时的样式 */
+.copyright a:hover {
+    text-decoration: none; /* 鼠标悬停时显示下划线 */
+}
+
+.custom-btn {
+    display: inline-block; /* 确保按钮作为块级元素显示，以便设置上下间距 */
+    // margin-top: 3px;    /* 设置上边距为 3px */
+    // margin-bottom: 3px; /* 设置下边距为 3px */
+    // margin-left: 3px;   /* 设置左边距为 3px */
+    // margin-right: 3px;  /* 设置右边距为 3px */
+    margin: 3px;
+}
+
+.widget a:hover{
+    border-bottom-color:transparent;
+}
+
+.widget {
+    margin-bottom:30px;
+}
+.widget-title {
+    color:#6E7173;
+    line-height:2.7;
+    margin-top:0;
+    font-size:16px;
+    border-bottom:1px solid #ddd;
+    display:block;
+}
+#response {
+    margin-bottom:.8em;
+}
+.widget-list {
+    list-style:none;
+    padding:0;
+}
+.widget-list li {
+    margin:5px 0;
+    line-height:1.5;
+}
+
+.description {
+    margin:5px 0 0;
+    color:#999;
+}
+
+kbd {
+    margin: 0 .1em;
+    padding: .1em .6em;
+    font-size: .8em;
+    color: #ffffff;
+    background: var(--color-kbd-light);
+    border: 1px solid var(--color-kbd-light);
+    border-radius: 3px;
+    box-shadow: 0px 1px 0 var(--color-kbd-light), var(--color-kbd-light) 2px var(--color-kbd-light) inset;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-family: SourceHanSerifSC;
+}
+

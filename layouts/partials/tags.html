@@ -1,0 +1,8 @@
+<h3 class="widget-title">博文标签汇总</h3>
+<ul class="widget-list">
+<div class="tagcloud">
+    {{ range .Site.Taxonomies.tags }}
+    <a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>&nbsp;&nbsp;
+    {{ end }}
+</div>
+</ul>

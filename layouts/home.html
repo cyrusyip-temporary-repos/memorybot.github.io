@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <article class="markdown book-post">
+        {{- .Content -}}
+    </article>
+    <div class="copyright">
+        &copy; {{ now.Format "2006" }} <a rel="nofollow" href="{{ .Site.BaseURL | absURL }}">{{ .Site.Title }}</a>
+        </br></br>
+        <!-- vercel <script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=57jwg3bw6bf&amp;t=Powered by" async="async"></script> -->
+        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5kuu173t4fm&amp;t=Powered by" async="async"></script>&nbsp;
+        <a rel="nofollow noreferer noopener" href="https://github.com/alex-shpak/hugo-book">Hugo Book</a>
+    </div>
+{{ end }}
+
+{{ define "toc" }}
+    {{ partial "sidebar" . }}
+{{ end }}

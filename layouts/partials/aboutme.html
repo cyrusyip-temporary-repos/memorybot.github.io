@@ -1,0 +1,13 @@
+<h3 class="widget-title">关于我</h3>
+<ul class="widget-list">
+    <div class="tagcloud">
+        <li>
+        {{ with .Site.Params.links }}
+            {{ range . }}
+            <a target="_blank" href="{{ .url }}" title="{{ .title }}">{{ .name }}</a>&nbsp;
+            {{ end }}
+            <!-- <a target="_blank" href="{{ "index.xml" | relURL }}" title="订阅本站">RSS</a> -->
+        {{ end }}
+    </li>
+    </div>
+</ul>

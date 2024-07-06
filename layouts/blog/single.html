@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <article class="markdown book-post">
+        <h1>
+            <!-- <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a> -->
+            <b>{{ partial "docs/title.html" . }}</b>
+        </h1>
+        {{ partial "docs/post-meta" . }}
+        {{- .Content -}}
+        </br>
+        {{ partial "postnav.html" . }}
+        </br>
+        {{ partial "comment.html" . }}
+    </article>
+{{ end }}
+
+{{ define "toc" }}
+    {{ partial "sidebar" . }}
+    </br>
+    {{ partial "docs/toc" . }}
+{{ end }}

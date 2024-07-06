@@ -1,0 +1,81 @@
+baseURL = 'https://memorybot.github.io/'
+languageCode = 'zh'
+title = 'Memorybot'
+disablePathToLower = true
+theme = ["hugo-notice"]
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+
+#[menu]
+#[[menu.before]]
+#  name = "Powered by Hugo Book"
+#  url = "/"
+#  weight = 1
+#[[menu.after]]
+#  name = "Powered by Hugo Book"
+#  url = "https://themes.gohugo.io/themes/hugo-book/"
+#  weight = 1
+
+[params]
+  subtitle = "人们火热 宗教理想娱乐"
+  #search_provider = "google"
+  BookTheme = 'light'  # light, dark or auto.
+  BookToC = true
+  BookFavicon = '/info/logo.jpg'
+  BookLogo = '/info/logo.jpg'
+  # BookMenuBundle = '/menu'
+  BookSection = 'docs'
+  # BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  # BookCommitPath = 'commit'
+  # BookEditPath = 'edit/main/exampleSite'
+  BookDateFormat = 'January 2, 2006'
+  BookSearch = true
+  BookComments = false
+  BookPortableLinks = true
+  BookServiceWorker = true
+  BookTranslatedOnly = false
+  [[params.links]]
+      name = "Email"
+      url = "mailto:memorybot.me@gmail.com"
+      title = "Email"
+  [[params.links]]
+      name = "Bluesky"
+      url = "https://bsky.app/profile/memorybot.bsky.social"
+      title = "Bluesky"
+  [[params.links]]
+      name = "NeoDB"
+      url = "https://neodb.social/users/memorybot/"
+      title = "NeoDB"
+  [[params.links]]
+      name = "设备记录"
+      url = "https://memorybot.vercel.app/device"
+      title = "设备记录"
+  [[params.links]]
+      name = "RSS"
+      url = "/index.xml"
+      title = "订阅本站"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 100000
+  path = 'page'
+  # Reference
+  # https://gohugo.io/templates/pagination/
+  # https://hugo.opendocs.io/templates/pagination/
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = 'emacs'  # light: borland, solarized-light, colorful
+  # Reference
+  # https://swapoff.org/chroma/playground/'
+  # https://blog.douchi.space/blog-code-syntax-highlighting/#gsc.tab=0
+
+[markup.tableOfContents]
+  startLevel = 1

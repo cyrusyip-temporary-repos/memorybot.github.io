@@ -1,0 +1,9 @@
+<h3 class="widget-title">最近更新的博文</h3>
+<ul class="widget-list">
+    {{ range first 3 (where (where .Site.Pages "Type" "in" (slice "blog" "blogs")) "Kind" "page") }}
+    <li>
+        <!-- <a href="{{ .Permalink }}" title="{{ .Title }}" target="_blank">{{ .Title }}</a> -->
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>

@@ -1,0 +1,28 @@
+<h3 class="widget-title">博文类别汇总</h3>
+<ul class="widget-list">
+<div class="tagcloud">
+    {{ range .Site.Taxonomies.categories }}
+    <a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>&nbsp;&nbsp;
+    {{ end }}
+</div>
+</ul>
+
+<!-- <h3 class="widget-title">博文类别汇总</h3>
+<ul class="widget-list">
+    {{ range .Site.Taxonomies.categories }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+    {{ end }}
+</ul> -->
+
+<!-- <section class="widget">
+    <h3 class="widget-title">博文类别汇总</h3>
+    <ul class="widget-list">
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <li>
+            <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
+                {{ $name }} ({{ len $taxonomy }})
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</section> -->

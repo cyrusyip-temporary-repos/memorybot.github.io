@@ -1,0 +1,10 @@
+<div class="book-search hidden">
+    {{ if eq (lower .Site.Params.search_provider) "google" }}
+    {{ partial "search_form_google" . }}
+      {{ else }}
+    {{ partial "search_form_duckduckgo" . }}
+      {{ end }}
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
