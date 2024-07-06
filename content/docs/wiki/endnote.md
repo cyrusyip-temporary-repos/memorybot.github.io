@@ -9,19 +9,19 @@ summary: 之前遇到过并解决了的 Endnote 问题合集。
 
 使用 EndNote 插入论文参考文献的时，有时会遇到一些条目的参考文献中期刊名称为全大写状态（如图  1），但是检查了对应条目的期刊信息（Journal），发现条目的期刊信息并没有问题（如图  2）。
 
-{{<figure src="/contents/misc/20240227endnote-tips-1.jpg" caption="Figure 1">}}
+{{<figure src="/contents/wiki/20240227endnote-tips-1.jpg" caption="Figure 1">}}
 
-{{<figure src="/contents/misc/20240227endnote-tips-2.jpg" caption="Figure 2">}}
+{{<figure src="/contents/wiki/20240227endnote-tips-2.jpg" caption="Figure 2">}}
 
 解决方案：如图 3 所示，点击"Edit - Output Style - Edit 'APA 7th'  "。
 
 备注：因为我当前使用的格式是 APA 7th，所以 Edit 'APA 7th'  该位置显示的是 APA 7th；如果你使用的 XXX 格式，那么该位置应该是  Edit 'XXX'。
 
-{{<figure src="/contents/misc/20240227endnote-tips-3.jpg" caption="Figure 3">}}
+{{<figure src="/contents/wiki/20240227endnote-tips-3.jpg" caption="Figure 3">}}
 
 如图 4 所示，在 “Journal Names” 一栏，将“Journal Name Format”选择为“Don't replace”，然后保存。
 
-{{<figure src="/contents/misc/20240227endnote-tips-4.jpg" caption="Figure 4">}}
+{{<figure src="/contents/wiki/20240227endnote-tips-4.jpg" caption="Figure 4">}}
 
 可以发现， Preview 中的期刊大小写变正常了！
 
@@ -50,7 +50,7 @@ width="500"参考资料width="500"
 
 ## Endnote 批量修改 notes，research notes 等列
 
-{{<figure src="/contents/misc/20240227endnote-tips-5.png" caption="Figure 5">}}
+{{<figure src="/contents/wiki/20240227endnote-tips-5.png" caption="Figure 5">}}
 
 
 

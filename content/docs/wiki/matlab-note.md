@@ -136,4 +136,4 @@ To resolve this issue, you can follow these steps:
 
 - Choose the first option: "MATLAB Version 7.3 or later (save -v7.3)."
 
-{{<figure src="/contents/code/20211130-1.png" caption="Figure 1">}}
+{{<figure src="/contents/wiki/20211130-1.png" caption="Figure 1">}}

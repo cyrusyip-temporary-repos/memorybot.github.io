@@ -419,7 +419,7 @@ cat(a,b,c)
 
 4.1.2 统计函数
 
-{{<figure src="/contents/code/20210610r-learning-1.png" caption="Figure 1">}}
+{{<figure src="/contents/wiki/20210610r-learning-1.png" caption="Figure 1">}}
 
 4.1.3 概率函数
 
@@ -430,11 +430,11 @@ d = 密度函数（density）p = 分布函数（distribution function）q = 分�
 
 4.1.4 字符处理函数
 
-{{<figure src="/contents/code/20210610r-learning-2.png" caption="Figure 2">}}
+{{<figure src="/contents/wiki/20210610r-learning-2.png" caption="Figure 2">}}
 
 4.1.5 其他函数
 
-{{<figure src="/contents/code/20210610r-learning-3.png" caption="Figure 3">}}
+{{<figure src="/contents/wiki/20210610r-learning-3.png" caption="Figure 3">}}
 
 ### 解决具体问题
 
@@ -545,7 +545,7 @@ t(cars)
 
 ### 数据整合与重塑
 
-{{<figure src="/contents/code/20210610r-learning-4.png" caption="Figure 4">}}
+{{<figure src="/contents/wiki/20210610r-learning-4.png" caption="Figure 4">}}
 
 ```R
 # 转置
@@ -611,7 +611,7 @@ dcast(md, ID~Time,mean)
 
 举例而言，如果研究者开发了一个量表测量「工作伦理」该潜在变数，而依照EFA的结果，其下又可分为工作态度与工作意义感两个向度，并且分别有X1~X3 ，以及X4~X6这六题分别在该两向度底下。那么我们在进行CFA时，就会依照理论设定模型，然后看整个数据适配的结果如何？简言之，就是看理论与实证数据是否贴近，以为验证。典型的验证性因素分析(在SEM中或称为测量模型)如下例图：
 
-{{<figure src="/contents/code/20210610r-learning-5.png" caption="Figure 5">}}
+{{<figure src="/contents/wiki/20210610r-learning-5.png" caption="Figure 5">}}
 
 #### (二)信度分析
 
@@ -619,11 +619,11 @@ dcast(md, ID~Time,mean)
 
 根据Hair等人(2006)的观点，λ大于等于.71时，就算是一个相当理想的指标，而一个指标(题目)的因素负荷量至少要大于等于.55，才算是可以接受的一个标准，在那数值以下的题目可能就不算很理想，需要予以斟酌。但这些判准并没有这么强硬，端赖于各个科学领域对于测量的品质需求到什么程度。一个量表呈现的公式为：
 
-{{<figure src="/contents/code/20210610r-learning-6.png" caption="Figure 6" width="200">}}
+{{<figure src="/contents/wiki/20210610r-learning-6.png" caption="Figure 6" width="200">}}
 
 公式中下标为X的的变异数为观察分数，而下标为T的部分为真分数，而下标E的部分则为误差分数。由于许多的测量或多或少都有误差，故将真实分数的变异最大化，或将误差分数的变异最小化就是测量的理想目标。这代表着我们真正测量到我们所测量的构念的比例是愈高的，而其他不相干的因素所占的比例是相对愈低的。信度的公式也非常直观，就是1（总变异）减去误差分数的变异部份：
 
-{{<figure src="/contents/code/20210610r-learning-7.png" caption="Figure 7" width="100">}}
+{{<figure src="/contents/wiki/20210610r-learning-7.png" caption="Figure 7" width="100">}}
 
 #### (三)结构方程模型
 

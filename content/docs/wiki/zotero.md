@@ -17,9 +17,9 @@ Click the **Settings**(Zotero 6 is **Preference**) in **Edit**, and then:
 
 My settings showed in Figure 1.
 
-{{<figure src="/contents/misc/20240229zotero-tip-1.jpg" caption="Figure 1.General settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-1.jpg" caption="Figure 1.General settings">}}
 
-{{<figure src="/contents/misc/20240229zotero-tip-1-1.jpg" caption="Figure 1.1.Filename Format settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-1-1.jpg" caption="Figure 1.1.Filename Format settings">}}
 
 ```
 {{ year suffix }}{{ authors max="1" name="family" join="_" suffix="_" case="hyphen" }}{{ title truncate="30" case="hyphen" }}
@@ -29,21 +29,21 @@ My settings showed in Figure 1.
 
 My settings showed in  Figure 2, I used [InfiniCLOUD](https://infini-cloud.net/en/index.html) for cloud store items and pdf files in my Zotero. The free plan in InfiniCLOUD (Figure 2.1) is enough for these literature files storage (I think).
 
-{{<figure src="/contents/misc/20240229zotero-tip-2.jpg" caption="Figure 2.Sync settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-2.jpg" caption="Figure 2.Sync settings">}}
 
-{{<figure src="/contents/misc/20240229zotero-tip-2-1.jpg" caption="Figure 2.1.InfiniCLOUD">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-2-1.jpg" caption="Figure 2.1.InfiniCLOUD">}}
 
 ### Export
 
 My settings showed in Figure 3.
 
-{{<figure src="/contents/misc/20240229zotero-tip-3.jpg" caption="Figure 3.Export settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-3.jpg" caption="Figure 3.Export settings">}}
 
 ### Cite
 
 My settings showed in Figure 4.
 
-{{<figure src="/contents/misc/20240229zotero-tip-4.jpg" caption="Figure 4.Cite settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-4.jpg" caption="Figure 4.Cite settings">}}
 
 ### Advanced
 
@@ -51,9 +51,9 @@ My settings showed in Figure 5 & 6.
 
 *Note: “Data Dictionary Location” means the place in your computer you want to store your Zotero data (everything in Zotero, such as items info, items pdf attachments, other attachments, and ...).*
 
-{{<figure src="/contents/misc/20240229zotero-tip-5.jpg" caption="Figure 5.Advanced settings1">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-5.jpg" caption="Figure 5.Advanced settings1">}}
 
-{{<figure src="/contents/misc/20240229zotero-tip-6.jpg" caption="Figure 6.Advanced settings2">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-6.jpg" caption="Figure 6.Advanced settings2">}}
 
 ## Advanced Settings: Add-on
 
@@ -61,9 +61,9 @@ Click the **Add-on** in **Tools**. Figure 7 showed the add-on extensions I used.
 
 *Note: Figure 7.1 recorded the Better BibTex Settings in my Zotero.*
 
-{{<figure src="/contents/misc/20240229zotero-tip-7.jpg" caption="Figure 7.Add-on">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-7.jpg" caption="Figure 7.Add-on">}}
 
-{{<figure src="/contents/misc/20240229zotero-tip-7-1.jpg" caption="Figure 7.1.Better BibTex Settings">}}
+{{<figure src="/contents/wiki/20240229zotero-tip-7-1.jpg" caption="Figure 7.1.Better BibTex Settings">}}
 
 ```
 [year][auth:lower]'_'[shorttitle1_0:lower]
@@ -79,7 +79,7 @@ year + auth(n=0,m=1,creator="*",initials=false).fold.lower + "'_'" + shorttitle(
 
   - Method 1: After selecting an item, click Edit
 
-  {{<figure src="/contents/misc/20240229zotero-tip-8.jpg" caption="Figure 8">}}
+  {{<figure src="/contents/wiki/20240229zotero-tip-8.jpg" caption="Figure 8">}}
 
   ​		***Copy citation (复制引注)***
 
@@ -91,17 +91,17 @@ year + auth(n=0,m=1,creator="*",initials=false).fold.lower + "'_'" + shorttitle(
 
   - Method 2: After selecting an item, right click
 
-  {{<figure src="/contents/misc/20240229zotero-tip-9.jpg" caption="Figure 9">}}
+  {{<figure src="/contents/wiki/20240229zotero-tip-9.jpg" caption="Figure 9">}}
 
-  {{<figure src="/contents/misc/20240229zotero-tip-10.jpg" caption="Figure 10">}}
+  {{<figure src="/contents/wiki/20240229zotero-tip-10.jpg" caption="Figure 10">}}
 
 - Delete local files while deleting attachments
 
-  {{<figure src="/contents/misc/20240229zotero-tip-11.jpg" caption="Figure 11">}}
+  {{<figure src="/contents/wiki/20240229zotero-tip-11.jpg" caption="Figure 11">}}
 
 - Show items from sub-collections
 
-  {{<figure src="/contents/misc/20240229zotero-tip-12.jpg" caption="Figure 12">}}
+  {{<figure src="/contents/wiki/20240229zotero-tip-12.jpg" caption="Figure 12">}}
 
 ## Reference
 
