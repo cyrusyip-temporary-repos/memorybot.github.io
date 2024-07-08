@@ -8,6 +8,10 @@
   }
 //   https://blog.douchi.space/blog-decoration-2/#gsc.tab=0
 
+.markdown a {
+  text-decoration: underline;
+}
+
 .post-nav {
     display: flex;
     justify-content: space-between;
